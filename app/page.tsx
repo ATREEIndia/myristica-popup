@@ -67,9 +67,9 @@ export default function Home() {
 
       />
       <div className="p-4 px-8">
-        <h3 className="font-bold text-2xl text-green-700">{item.title}</h3>
-        <i className="text-green-700">{item.sciName}</i>
-      <div className=" mt-1 ">
+        <h3 className="font-bold text-xl text-green-700">{item.title}</h3>
+        <i className="text-green-700 text-sm">{item.sciName}</i>
+      <div className=" mt-1 text-sm">
        {item.content}
       </div>
       </div> 
