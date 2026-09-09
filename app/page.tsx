@@ -7,7 +7,7 @@ export default function Home() {
     <div className="relative w-full">
       <div className="w-full h-screen relative">
         <Image
-          src="/swampx2.jpg"
+          src="/swampx3.jpg"
           alt="swamp"
           fill
           loading="eager"
