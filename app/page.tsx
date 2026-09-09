@@ -7,7 +7,7 @@ export default function Home() {
     <div className="relative w-full">
       <div className="w-full h-screen relative">
         <Image
-          src="/Swamps-Infographic7.jpg"
+          src="/swampx2.jpg"
           alt="swamp"
           fill
           loading="eager"
@@ -30,7 +30,7 @@ export default function Home() {
 
 
       {/* Hotspot 1 */}
-      {info.map((item, i) => (
+      {infox.map((item, i) => (
         <div key={i}
           className="group absolute"
           style={{
@@ -65,7 +65,7 @@ export default function Home() {
       absolute
       ${Number(item.position.left.split("%")[0]) > 40 ? "right-full" : "left-full"}
       ${Number(item.position.top.split("%")[0]) > 40 ? "-translate-y-[50%]" : ""}
-      ${Number(item.position.top.split("%")[0]) > 70 ? "-translate-y-[70%]" : ""}
+      ${Number(item.position.top.split("%")[0]) > 70 ? "-translate-y-[80%]" : ""}
       ${Number(item.position.top.split("%")[0]) > 75 ? "-translate-y-[100%]" : ""}
       
       mb-4
