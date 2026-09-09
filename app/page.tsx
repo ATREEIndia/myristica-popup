@@ -3,26 +3,34 @@ import { info } from "./Data/Info";
 
 export default function Home() {
   return (
-   <div className="relative w-full">
-  <Image
-    src="/Swamps-Infographic.jpg"
-    alt="Annual Report 2025–2026"
-    width={775}
-    height={1000}
-    className="block w-full h-auto"
-  />
+    <div className="relative w-full">
+      <div className="w-full h-screen relative">
+        <Image
+          src="/Swamps-Infographic7.jpg"
+          alt="swamp"
+          fill
+          loading="eager"
+          priority
 
-  {/* Hotspot 1 */}
-  {info.map((item,i)=>(
-    <div key={i}
-    className="group absolute"
-    style={{
-      left: item.position.left,
-      top: item.position.top,
-    }}
-  >
-    <button
-      className="
+          className="block w-auto h-screen object-cover"
+        />
+      </div>
+
+
+
+
+
+      {/* Hotspot 1 */}
+      {info.map((item, i) => (
+        <div key={i}
+          className="group absolute"
+          style={{
+            left: item.position.left,
+            top: item.position.top,
+          }}
+        >
+          <button
+            className="
         relative
         w-4 h-4
         rounded-full
@@ -31,8 +39,8 @@ export default function Home() {
         shadow-lg
         cursor-pointer
       "
-    >
-      <span className="
+          >
+            <span className="
         absolute
         inset-0
         rounded-full
@@ -40,50 +48,60 @@ export default function Home() {
         animate-ping
         opacity-50
       " />
-    </button>
+          </button>
 
-    {/* Popup */}
-    <div className={`
+          {/* Popup */}
+          <div className={`
       absolute
-      ${Number(item.position.left.split("%")[0])>40?"right-full":"left-full"}
-      ${Number(item.position.top.split("%")[0])>40?"-translate-y-[50%]":""}
-      ${Number(item.position.top.split("%")[0])>70?"-translate-y-[70%]":""}
-      ${Number(item.position.top.split("%")[0])>75?"-translate-y-[100%]":""}
+      ${Number(item.position.left.split("%")[0]) > 40 ? "right-full" : "left-full"}
+      ${Number(item.position.top.split("%")[0]) > 40 ? "-translate-y-[50%]" : ""}
+      ${Number(item.position.top.split("%")[0]) > 70 ? "-translate-y-[70%]" : ""}
+      ${Number(item.position.top.split("%")[0]) > 75 ? "-translate-y-[100%]" : ""}
       
       mb-4
       
       hidden
       group-hover:block
       group-focus-within:block
-      w-[30vw]
+      w-[20vw]
       rounded-lg
       bg-white
       
       shadow-xl
       z-20
     `}>
-      <img 
-      src={item.img_url}
 
-      />
-      <div className="p-4 px-8">
-        <h3 className="font-bold text-xl text-green-700">{item.title}</h3>
-        <i className="text-green-700 text-sm">{item.sciName}</i>
-      <div className=" mt-1 text-sm">
-       {item.content}
-      </div>
-      </div> 
-      
-    </div>
-  </div>
+            {/* <Image
+              src={item.img_url}
+              alt=""
+              width={200}
+              height={500}
+              className="w-auto h-auto"
 
-  ))}
+            /> */}
+            <img src={item.img_url} alt="" />
 
 
-  
 
-  
-  {/* <div
+
+            <div className="p-4 px-8">
+              <h3 className="font-bold text-xl text-green-700">{item.title}</h3>
+              <i className="text-green-700 text-sm">{item.sciName}</i>
+              <div className=" mt-1 text-sm">
+                {item.content}
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      ))}
+
+
+
+
+
+      {/* <div
     className="group absolute"
     style={{
       left: '47.1%',
@@ -134,6 +152,6 @@ export default function Home() {
       </p>
     </div>
   </div> */}
-</div>
+    </div>
   );
 }

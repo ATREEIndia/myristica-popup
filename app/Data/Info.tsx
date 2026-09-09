@@ -1,7 +1,7 @@
 export const info=[
     {
         
-        position:{left:'65.6%',top:'22.4%'},
+        position:{left:'65.6%',top:'5.4%'},
         img_url:"/hornbill.jpg",
         title:"Malabar Grey Hornbill",
         sciName:"Ocyceros griseus",
@@ -12,7 +12,7 @@ export const info=[
     },
     {
        
-        position:{left:'95.6%',top:'32.4%'},
+        position:{left:'94.6%',top:'15.4%'},
         img_url:"/02-04-tree-fern.jpg",
         title:"Nilgiri Tree Fern",
         sciName:"Cyathea nilgiriensis",
@@ -24,7 +24,7 @@ export const info=[
     ,
     {
        
-        position:{left:'47.6%',top:'30.4%'},
+        position:{left:'47.6%',top:'2.4%'},
         img_url:"/02-04-macaque-768x579.jpg",
         title:"Lion-Tailed Macaques",
         sciName:"Macaca silenus",
@@ -36,7 +36,7 @@ export const info=[
     ,
     {
        
-        position:{left:'33.6%',top:'41.4%'},
+        position:{left:'33.6%',top:'21.4%'},
         img_url:"/02-04-squirrel-768x579.jpg",
         title:"Malabar Giant Squirrel",
         sciName:"Ratufa indica",
@@ -48,7 +48,7 @@ export const info=[
     ,
     {
        
-        position:{left:'27.6%',top:'47.4%'},
+        position:{left:'27.6%',top:'30.4%'},
         img_url:"/02-04-lizard-768x579.jpg",
         title:"Indian Flying Lizard",
         sciName:"Draco dussumieri",
@@ -60,7 +60,7 @@ export const info=[
     ,
     {
        
-        position:{left:'13.6%',top:'57.4%'},
+        position:{left:'12.6%',top:'57.4%'},
         img_url:"/02-04-lophopetalum-768x579.jpg",
         title:"Wight’s Crest-Petal",
         sciName:"Lophopetalum wightianum",
@@ -72,7 +72,7 @@ export const info=[
     ,
     {
        
-        position:{left:'88.6%',top:'60.4%'},
+        position:{left:'88.6%',top:'52.4%'},
         img_url:"/02-04-mouse-deer-768x579.jpg",
         title:"Indian Mouse Deer (Chevrotain)",
         sciName:"Moschiola indica",
@@ -83,7 +83,7 @@ export const info=[
     ,
     {
        
-        position:{left:'78.6%',top:'65.4%'},
+        position:{left:'78.6%',top:'78.4%'},
         img_url:"/02-04-myristica-768x579.jpg",
         title:"Magnificent Nutmeg",
         sciName:"Myristica magnifica",
@@ -94,7 +94,7 @@ export const info=[
     ,
     {
        
-        position:{left:'60.6%',top:'66.4%'},
+        position:{left:'60.6%',top:'64.4%'},
         img_url:"/02-04-warblers-768x579.jpg",
         title:"Indian Scimitar Babbler",
         sciName:"Pomatorhinus horsfieldii",
@@ -127,7 +127,7 @@ export const info=[
     ,
     {
        
-        position:{left:'54.6%',top:'79.4%'},
+        position:{left:'54.6%',top:'85.4%'},
         img_url:"/02-04-mercuriana-768x579.jpg",
         title:"Myristica Swamp Tree Frog",
         sciName:"Mercurana myristicapalustris",
@@ -138,7 +138,7 @@ export const info=[
     ,
     {
        
-        position:{left:'73.6%',top:'76.4%'},
+        position:{left:'73.6%',top:'80.4%'},
         img_url:"/02-04-pit-viper-768x579.jpg",
         title:"Malabar Pit Viper",
         sciName:"Trimersurus malabaricus",
@@ -149,7 +149,7 @@ export const info=[
     ,
     {
        
-        position:{left:'15.6%',top:'72.4%'},
+        position:{left:'15.6%',top:'75.4%'},
         img_url:"/02-04-gymnacranthera-768x579.jpg",
         title:"Kanara Nutmeg",
         sciName:"Gymnacranthera canarica",
@@ -160,7 +160,7 @@ export const info=[
     ,
     {
        
-        position:{left:'10.6%',top:'74.4%'},
+        position:{left:'10.6%',top:'79.4%'},
         img_url:"/02-04-crab.jpg",
         title:"Crab",
         sciName:"Barytelphusa guerini",
@@ -171,7 +171,7 @@ export const info=[
     ,
     {
        
-        position:{left:'20.6%',top:'79.4%'},
+        position:{left:'20.6%',top:'85.4%'},
         img_url:"/02-04-arenga.jpg",
         title:"Wight’s Sago Palm",
         sciName:"Arenga wightii",
@@ -182,7 +182,7 @@ An endemic Indian palm. Spot two other palm species in the swamp.
     ,
     {
        
-        position:{left:'35.6%',top:'85.4%'},
+        position:{left:'35.6%',top:'90.4%'},
         img_url:"/02-04-micrixalus-768x579.jpg",
         title:"Kottigehar Dancing Frog",
         sciName:"Micrixalus kottigeharensis",
@@ -193,7 +193,7 @@ The frog family Micrixalidae diverged from all other amphibian species about 70 
     ,
     {
        
-        position:{left:'40.6%',top:'93.4%'},
+        position:{left:'46.6%',top:'86.4%'},
         img_url:"/02-04-gollum.jpg",
         title:"Gollum Snakehead",
         sciName:"Aenigmachanna gollum",
